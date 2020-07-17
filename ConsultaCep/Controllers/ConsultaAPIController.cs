@@ -51,7 +51,7 @@ namespace ConsultaCep.Controllers
         }
 
         // DELETE: api/DeletarEndereco/
-        [HttpDelete("{id}")]
+        [HttpDelete]
         [Route("DeletarEndereco")]
         public IActionResult Deletar (int id)
         {
